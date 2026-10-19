@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
             try {
 
-              String plainText = myMethods.encryptionData("I Love You Sadia", "N9@tF2x#Lp7zQ1vW");
+              String plainText = myMethods.encryptionData("I Love You Sadia ", "N9@tF2x#Lp7zQ1vW");
               result.setText(plainText);
 
             } catch (Exception e) {
