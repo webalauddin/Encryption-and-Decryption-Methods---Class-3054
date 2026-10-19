@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+
+
+    <Button
+        android:id="@+id/encryptButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="Encrypt Data"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="#D50000"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        />
+
+
+
+    <Button
+        android:id="@+id/decryptButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="Decrypt Data"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="#00BFA5"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25sp"
+        android:textColor="#6200EA"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        />
+
+</LinearLayout>
