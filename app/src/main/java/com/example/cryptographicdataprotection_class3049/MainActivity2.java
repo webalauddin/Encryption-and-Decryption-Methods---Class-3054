@@ -18,6 +18,11 @@ public class MainActivity2 extends AppCompatActivity {
     Button encryptedButton, decryptedButton;
     TextView result;
 
+    //new code -------------//
+    //new code -------------//
+    //new code -------------//
+    //new code -------------//
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,7 @@ public class MainActivity2 extends AppCompatActivity {
         encryptedButton = findViewById(R.id.encryptedButton);
         decryptedButton = findViewById(R.id.decryptedButton);
         result = findViewById(R.id.result);
+
 
 
         encryptedButton.setOnClickListener(v -> {
@@ -55,7 +61,7 @@ public class MainActivity2 extends AppCompatActivity {
                     throw new RuntimeException(e);
 
                 }
-;
+
 
 
 
